@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1B7578">
+  <meta name="description" content="Proyecto de practica trasladar div - JS">
+  <meta name="author" content="ZKC">
+  <meta name="copyright" content="Todos los derechos reservados © a 'CodigoNepal' ">
+
+  <title>Proyecto Bloque Dinámico - JS</title>
+
+  <script src="https://kit.fontawesome.com/c3a0547943.js" crossorigin="anonymous"></script>
+
+  <link rel="icon" type="image/png" href="img/js.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-------------------- Bloque Movible -------------------->
+  <main class="wrapper">
+    <header>
+      <div class="container-title">
+        <h1>MOVER</h1>
+      </div>
+    </header>
+    <div class="container-info">
+      <div class="icon"><img src="img/mover1.png" alt="Icon de mover"></div>
+      <div class="title"><h2>Bloque Dinámico</h2></div>
+      <p>Este es un bloque que tiene la particularidad de poder ser arrastrado por toda la pantalla.</p>
+    </div>
+  </main>
+  <!-------------------- Fin Bloque Movible -------------------->
+
+  <!-------------------- Boton de redes sociales -------------------->
+  <section>
+    <div class="container-button">
+       <input type="checkbox" class="button-main" id="button-main">
+
+       <div class="redes">
+        <a id="open" class="fas fa-pencil-alt"><input type="button"></a>
+        <a href="https://facebook.com/AlfredCallejero" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/Alfred17_" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://instagram.com/barragan.alfred12" target="_blank" class="fa fa-instagram"></a>
+       </div>
+
+       <div class="button-secondary">
+          <label for="button-main" class="fa fa-plus"></label>
+       </div>
+    </div>
+  </section>
+  <!-------------------- Fin - Boton de redes sociales -------------------->
+
+  <!-------------------- Bitácora - POP UP -------------------->
+  <section id="modal-bitacora" class="modal-container">
+    <div class="modal">
+      <button id="close" class="boton-popup"><i class="fas fa-times-circle"></i></button>
+      <h1>Bitácora</h1>
+      <p>El propósito del proyecto fue realizar práctica para mantener un plazo de estudio el cual tiene como objetivo principal el aprendizaje del lenguaje de programación JavaScript y de la correcta maquetación.</p>
+      <br>
+      <p>Proyecto realizado con las tecnologías:</p>
+      <p><span>▶ HTML5</span></p>
+      <p><span>▶ CSS3</span></p>
+      <p><span>▶ JavaScript</span></p>
+
+      <p>Conocimientos aplicados:</p>
+      <p><span>▶ Variables</span></p>
+      <p><span>▶ Constantes</span></p>
+      <p><span>▶ Funciones </span></p>
+      <p><span>▶ Evento de ratón</span></p>
+      <p><span>▶ DOM </span></p>
+    </div>
+  </section>
+  <!-------------------- Fin de Bitácora - POP UP -------------------->
+
+  <script src="js/main.js"></script>
+  <script>document.oncontextmenu = function(){return false;}</script> <!--Bloquear -->
+</body>
+</html>
